@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 620">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 520">
 <defs>
 <radialGradient id="glow"><stop offset="0" stop-color="#ffffff" stop-opacity=".25"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></radialGradient>
 <radialGradient id="mouthGlow"><stop offset="0" stop-color="#ffe9b0" stop-opacity=".9"/><stop offset=".6" stop-color="#f5c518" stop-opacity=".35"/><stop offset="1" stop-color="#f5c518" stop-opacity="0"/></radialGradient>
@@ -7,14 +7,12 @@
 <linearGradient id="boxFrontR" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#d4ddf9"/><stop offset="1" stop-color="#a9b8ea"/></linearGradient>
 <linearGradient id="gKotlin" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#7F52FF"/><stop offset=".55" stop-color="#C711E1"/><stop offset="1" stop-color="#E44857"/></linearGradient>
 <linearGradient id="gLeaf" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8bd450"/><stop offset="1" stop-color="#5a9e2f"/></linearGradient>
+<linearGradient id="wL" gradientUnits="userSpaceOnUse" x1="225" y1="285" x2="140" y2="176"><stop offset="0" stop-color="#FFC145" stop-opacity=".2"/><stop offset=".35" stop-color="#FFC145" stop-opacity=".85"/><stop offset="1" stop-color="#FFC145" stop-opacity="0"/></linearGradient>
+<linearGradient id="wC" gradientUnits="userSpaceOnUse" x1="256" y1="280" x2="256" y2="150"><stop offset="0" stop-color="#7FD4FF" stop-opacity=".2"/><stop offset=".35" stop-color="#7FD4FF" stop-opacity=".85"/><stop offset="1" stop-color="#7FD4FF" stop-opacity="0"/></linearGradient>
+<linearGradient id="wR" gradientUnits="userSpaceOnUse" x1="287" y1="285" x2="372" y2="176"><stop offset="0" stop-color="#7c86ad" stop-opacity=".2"/><stop offset=".35" stop-color="#7c86ad" stop-opacity=".8"/><stop offset="1" stop-color="#7c86ad" stop-opacity="0"/></linearGradient>
 </defs>
-<g transform="translate(256 235) scale(0.95) translate(-255 -255)">
+<g transform="translate(256 224) scale(0.95) translate(-255 -255)">
 <ellipse cx="256" cy="298" rx="130" ry="46" fill="url(#mouthGlow)"/>
-<g fill="none" stroke-linecap="round" stroke-dasharray="2 12">
-<path stroke="#FFC145" stroke-width="4" opacity="0.65" d="M232 292 C 216 284, 196 272, 176 258"/>
-<path stroke="#7FD4FF" stroke-width="4" opacity="0.6" d="M256 280 C 256 244, 256 208, 256 172"/>
-<path stroke="#7c86ad" stroke-width="3.5" opacity="0.5" d="M282 292 C 300 284, 316 274, 330 262"/>
-</g>
 <g stroke="#0a1258" stroke-width="3" stroke-linejoin="round">
 <polygon points="256,270 156,307 124,277 224,240" fill="#f5f7ff"/>
 <polygon points="256,270 356,307 388,277 288,240" fill="#dfe6ff"/>
@@ -26,15 +24,21 @@
 </g>
 <polygon points="193,321 209,327 209,429 193,423" fill="#f5c518" opacity="0.85"/>
 <polygon points="293,327 309,321 309,423 293,429" fill="#f07818" opacity="0.7"/>
+<!-- water spreading out of the open box -->
+<g fill="none" stroke-linecap="round" stroke-width="6">
+<path stroke="url(#wL)" d="M225 285 C 196 266, 166 232, 140 176"/>
+<path stroke="url(#wC)" d="M256 280 C 264 252, 250 224, 256 150"/>
+<path stroke="url(#wR)" d="M287 285 C 316 266, 346 232, 372 176"/>
+</g>
 <g transform="translate(128 190) rotate(-10 40 40)">
 <polygon points="0,0 80,0 40,40 80,80 0,80" fill="url(#gKotlin)"/>
 </g>
-<g transform="translate(216 96) rotate(4) scale(0.9)">
+<g transform="translate(216 122) rotate(4) scale(0.9)">
 <text x="0" y="42" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="44" font-weight="700" fill="#232F3E">aws</text>
 <path d="M2 56 C 26 70, 62 70, 84 58" fill="none" stroke="#FF9900" stroke-width="7" stroke-linecap="round"/>
 <path d="M84 58 l -12 -2 m 12 2 l -4 11" fill="none" stroke="#FF9900" stroke-width="7" stroke-linecap="round"/>
 </g>
-<g transform="translate(300 200) rotate(12) scale(1.25)">
+<g transform="translate(300 186) rotate(12) scale(1.25)">
 <path d="M4 52 C 2 22, 26 2, 62 4 C 64 34, 40 56, 8 54 Z" fill="url(#gLeaf)"/>
 <path d="M10 50 C 24 38, 40 24, 56 10" fill="none" stroke="#eaf7dc" stroke-width="4" stroke-linecap="round"/>
 </g>
@@ -46,6 +50,5 @@
 <circle cx="140" cy="120" r="3" fill="#FFC145" opacity="0.9"/>
 <circle cx="370" cy="110" r="2.5" fill="#7FD4FF" opacity="0.8"/>
 <circle cx="310" cy="70" r="2.5" fill="#7c86ad" opacity="0.7"/></g>
-<text x="256" y="545" text-anchor="middle" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="72" font-weight="700" fill="#16227f">awskotlin</text>
-<text x="256" y="592" text-anchor="middle" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#f07818">AWS SDK Kotlin for Spring</text>
+<text x="256" y="485" text-anchor="middle" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="30" font-weight="600" fill="#f07818">AWS SDK Kotlin for Spring</text>
 </svg>

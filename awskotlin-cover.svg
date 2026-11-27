@@ -10,6 +10,7 @@
 <linearGradient id="boxFrontR" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#d4ddf9"/><stop offset="1" stop-color="#a9b8ea"/></linearGradient>
 <linearGradient id="gKotlin" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#7F52FF"/><stop offset=".55" stop-color="#C711E1"/><stop offset="1" stop-color="#E44857"/></linearGradient>
 <linearGradient id="gLeaf" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8bd450"/><stop offset="1" stop-color="#5a9e2f"/></linearGradient>
+
 </defs>
 <rect width="1584" height="396" fill="url(#bg)"/>
 <g fill="none" stroke-linecap="round">
@@ -36,11 +37,6 @@
 <ellipse cx="285" cy="228" rx="120" ry="42" fill="url(#mouthGlow)"/>
 
 <!-- flight trails -->
-<g fill="none" stroke-linecap="round" stroke-dasharray="2 14">
-<path stroke="#FFC145" stroke-width="4" opacity="0.65" d="M290 220 C 300 180, 310 155, 330 128"/>
-<path stroke="#7FD4FF" stroke-width="4" opacity="0.6" d="M300 218 C 350 160, 395 115, 448 84"/>
-<path stroke="#ffffff" stroke-width="3.5" opacity="0.5" d="M310 222 C 390 190, 460 160, 528 132"/>
-</g>
 
 <!-- open box (isometric) -->
 <g stroke="#0a1258" stroke-width="3" stroke-linejoin="round">
@@ -59,6 +55,12 @@
 <!-- tape stripe on the front faces -->
 <polygon points="232,247 248,253 248,349 232,343" fill="#f5c518" opacity="0.85"/>
 <polygon points="322,253 338,247 338,343 322,349" fill="#f07818" opacity="0.7"/>
+<!-- flight trails -->
+<g fill="none" stroke-linecap="round" stroke-dasharray="2 14">
+<path stroke="#FFC145" stroke-width="4" opacity="0.65" d="M290 220 C 300 180, 310 155, 330 128"/>
+<path stroke="#7FD4FF" stroke-width="4" opacity="0.6" d="M300 218 C 350 160, 395 115, 448 84"/>
+<path stroke="#ffffff" stroke-width="3.5" opacity="0.5" d="M310 222 C 390 190, 460 160, 528 132"/>
+</g>
 
 <!-- Kotlin mark flying out -->
 <g transform="translate(300 92) rotate(-12 34 34)">
@@ -66,14 +68,14 @@
 </g>
 
 <!-- AWS smile flying out -->
-<g transform="translate(418 44) rotate(6)">
+<g transform="translate(418 70) rotate(6)">
 <text x="0" y="42" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="46" font-weight="700" fill="#ffffff">aws</text>
 <path d="M2 56 C 26 70, 62 70, 84 58" fill="none" stroke="#FF9900" stroke-width="7" stroke-linecap="round"/>
 <path d="M84 58 l -12 -2 m 12 2 l -4 11" fill="none" stroke="#FF9900" stroke-width="7" stroke-linecap="round"/>
 </g>
 
 <!-- Spring leaf flying out -->
-<g transform="translate(506 104) rotate(14)">
+<g transform="translate(520 90) rotate(14)">
 <path d="M4 52 C 2 22, 26 2, 62 4 C 64 34, 40 56, 8 54 Z" fill="url(#gLeaf)"/>
 <path d="M10 50 C 24 38, 40 24, 56 10" fill="none" stroke="#eaf7dc" stroke-width="4" stroke-linecap="round"/>
 </g>
