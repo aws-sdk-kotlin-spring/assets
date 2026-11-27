@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1584" height="396" viewBox="0 0 1584 396">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0a1258"/><stop offset=".55" stop-color="#16227f"/><stop offset="1" stop-color="#2a35b0"/></linearGradient>
+<linearGradient id="gAmber" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#f5c518"/><stop offset="1" stop-color="#f07818"/></linearGradient>
+<linearGradient id="gCyan" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#7fd4ff"/><stop offset="1" stop-color="#3f7ae0"/></linearGradient>
+<radialGradient id="glow"><stop offset="0" stop-color="#ffffff" stop-opacity=".25"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></radialGradient>
+<radialGradient id="mouthGlow"><stop offset="0" stop-color="#ffe9b0" stop-opacity=".9"/><stop offset=".6" stop-color="#f5c518" stop-opacity=".35"/><stop offset="1" stop-color="#f5c518" stop-opacity="0"/></radialGradient>
+<linearGradient id="beam" x1="0" y1="1" x2="0" y2="0"><stop offset="0" stop-color="#ffe9b0" stop-opacity=".30"/><stop offset="1" stop-color="#ffe9b0" stop-opacity="0"/></linearGradient>
+<linearGradient id="boxFrontL" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#eef2ff"/><stop offset="1" stop-color="#c9d4f6"/></linearGradient>
+<linearGradient id="boxFrontR" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#d4ddf9"/><stop offset="1" stop-color="#a9b8ea"/></linearGradient>
+<linearGradient id="gKotlin" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#7F52FF"/><stop offset=".55" stop-color="#C711E1"/><stop offset="1" stop-color="#E44857"/></linearGradient>
+<linearGradient id="gLeaf" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8bd450"/><stop offset="1" stop-color="#5a9e2f"/></linearGradient>
+</defs>
+<rect width="1584" height="396" fill="url(#bg)"/>
+<g fill="none" stroke-linecap="round">
+<path stroke="url(#gAmber)" stroke-width="26" opacity="0.18" d="M-60 352 C 420 292, 900 402, 1650 330"/>
+<path stroke="url(#gAmber)" stroke-width="10" opacity="0.55" d="M-60 318 C 320 258, 560 372, 940 322 S 1420 236, 1650 296"/>
+<path stroke="url(#gCyan)" stroke-width="6" opacity="0.4" d="M-60 92 C 340 142, 700 44, 1060 92 S 1460 150, 1650 108"/>
+<path stroke="#ffffff" stroke-width="3" opacity="0.28" d="M-60 204 C 400 172, 820 244, 1220 202 S 1520 172, 1650 192"/>
+<path stroke="url(#gCyan)" stroke-width="2" opacity="0.35" d="M-60 40 C 500 80, 1000 10, 1650 60"/>
+</g>
+<circle cx="620" cy="342" r="3.5" fill="#FF8A3C" opacity="0.7"/>
+<circle cx="830" cy="330" r="4.5" fill="#FFC145" opacity="0.6"/>
+<circle cx="1180" cy="352" r="2.5" fill="#ffffff" opacity="0.4"/>
+<circle cx="1400" cy="214" r="5" fill="#FF8A3C" opacity="0.55"/>
+<circle cx="760" cy="52" r="4" fill="#7FD4FF" opacity="0.6"/>
+<circle cx="900" cy="70" r="3" fill="#ffffff" opacity="0.45"/>
+<circle cx="1240" cy="108" r="4.5" fill="#7FD4FF" opacity="0.5"/>
+<circle cx="1450" cy="130" r="3" fill="#FFC145" opacity="0.5"/>
+<circle cx="60" cy="64" r="3" fill="#ffffff" opacity="0.5"/>
+<circle cx="1500" cy="300" r="3.5" fill="#7FD4FF" opacity="0.5"/>
+
+<!-- glow + light beam rising from the open box -->
+<circle cx="285" cy="210" r="230" fill="url(#glow)"/>
+<polygon points="215,225 355,225 470,20 130,20" fill="url(#beam)"/>
+<ellipse cx="285" cy="228" rx="120" ry="42" fill="url(#mouthGlow)"/>
+
+<!-- flight trails -->
+<g fill="none" stroke-linecap="round" stroke-dasharray="2 14">
+<path stroke="#FFC145" stroke-width="4" opacity="0.65" d="M290 220 C 300 180, 310 155, 330 128"/>
+<path stroke="#7FD4FF" stroke-width="4" opacity="0.6" d="M300 218 C 350 160, 395 115, 448 84"/>
+<path stroke="#ffffff" stroke-width="3.5" opacity="0.5" d="M310 222 C 390 190, 460 160, 528 132"/>
+</g>
+
+<!-- open box (isometric) -->
+<g stroke="#0a1258" stroke-width="3" stroke-linejoin="round">
+<!-- back flaps tilted open -->
+<polygon points="285,200 195,233 163,203 253,170" fill="#f5f7ff"/>
+<polygon points="285,200 375,233 407,203 317,170" fill="#dfe6ff"/>
+<!-- inner mouth -->
+<polygon points="285,200 375,233 285,266 195,233" fill="#101a6e"/>
+<!-- body -->
+<polygon points="195,233 285,266 285,362 195,329" fill="url(#boxFrontL)"/>
+<polygon points="285,266 375,233 375,329 285,362" fill="url(#boxFrontR)"/>
+<!-- front flaps hanging open -->
+<polygon points="195,233 285,266 258,300 168,267" fill="#ffffff"/>
+<polygon points="285,266 375,233 402,267 312,300" fill="#e8edff"/>
+</g>
+<!-- tape stripe on the front faces -->
+<polygon points="232,247 248,253 248,349 232,343" fill="#f5c518" opacity="0.85"/>
+<polygon points="322,253 338,247 338,343 322,349" fill="#f07818" opacity="0.7"/>
+
+<!-- Kotlin mark flying out -->
+<g transform="translate(300 92) rotate(-12 34 34)">
+<polygon points="0,0 68,0 34,34 68,68 0,68" fill="url(#gKotlin)"/>
+</g>
+
+<!-- AWS smile flying out -->
+<g transform="translate(418 44) rotate(6)">
+<text x="0" y="42" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="46" font-weight="700" fill="#ffffff">aws</text>
+<path d="M2 56 C 26 70, 62 70, 84 58" fill="none" stroke="#FF9900" stroke-width="7" stroke-linecap="round"/>
+<path d="M84 58 l -12 -2 m 12 2 l -4 11" fill="none" stroke="#FF9900" stroke-width="7" stroke-linecap="round"/>
+</g>
+
+<!-- Spring leaf flying out -->
+<g transform="translate(506 104) rotate(14)">
+<path d="M4 52 C 2 22, 26 2, 62 4 C 64 34, 40 56, 8 54 Z" fill="url(#gLeaf)"/>
+<path d="M10 50 C 24 38, 40 24, 56 10" fill="none" stroke="#eaf7dc" stroke-width="4" stroke-linecap="round"/>
+</g>
+
+<!-- sparkles -->
+<g stroke="#ffffff" stroke-width="3" stroke-linecap="round" opacity="0.85">
+<path d="M392 132 v 16 M384 140 h 16"/>
+<path d="M488 42 v 12 M482 48 h 12" opacity="0.7"/>
+<path d="M580 84 v 12 M574 90 h 12" opacity="0.6"/>
+</g>
+<circle cx="352" cy="72" r="3" fill="#FFC145" opacity="0.9"/>
+<circle cx="470" cy="120" r="2.5" fill="#7FD4FF" opacity="0.8"/>
+<circle cx="560" cy="60" r="2.5" fill="#ffffff" opacity="0.7"/>
+
+<text x="640" y="200" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="66" font-weight="700" fill="#ffffff">AWS SDK Kotlin for Spring</text>
+<text x="644" y="260" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="34" font-weight="400" fill="#FFC145">Coroutine-friendly AWS templates for Spring Boot</text>
+</svg>
