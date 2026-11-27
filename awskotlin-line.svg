@@ -3,9 +3,9 @@
 <path d="M156 307 V413 L256 450 L356 413 V307 M256 344 V450"/>
 <path d="M156 307 L124 277 L224 240 L256 270 M356 307 L388 277 L288 240 L256 270"/>
 <path d="M156 307 L139 341 L229 378 L256 344 M356 307 L383 341 L293 378 L256 344"/>
-<g transform="translate(168 172) rotate(-10 34 34)"><polygon points="0,0 68,0 34,34 68,68 0,68"/></g>
-<g transform="translate(238 146) rotate(4)"><path d="M2 56 C 26 70, 62 70, 84 58 M84 58 l -12 -2 m 12 2 l -4 11"/></g>
-<g transform="translate(298 190) rotate(12) scale(0.92)"><path d="M4 52 C 2 22, 26 2, 62 4 C 64 34, 40 56, 8 54 Z M10 50 C 24 38, 40 24, 56 10"/></g>
-<path stroke-dasharray="2 18" d="M240 284 C 230 270, 216 258, 204 246 M256 278 C 258 262, 262 246, 266 228 M274 284 C 292 270, 306 258, 318 248"/>
-<path d="M128 128 v 14 M121 135 h 14 M392 148 v 12 M386 154 h 12"/>
+<g transform="translate(146 180) rotate(-10 48 48)"><polygon points="0,0 96,0 48,48 96,96 0,96"/></g>
+<g transform="translate(238 118) rotate(4) scale(1.45)"><path d="M2 56 C 26 70, 62 70, 84 58 M84 58 l -12 -2 m 12 2 l -4 11"/></g>
+<g transform="translate(292 206) rotate(12) scale(1.25)"><path d="M4 52 C 2 22, 26 2, 62 4 C 64 34, 40 56, 8 54 Z M10 50 C 24 38, 40 24, 56 10"/></g>
+<path stroke-dasharray="2 18" d="M226 288 C 216 280, 208 274, 200 268 M256 278 C 262 262, 270 246, 278 232 M282 288 C 300 280, 316 272, 330 264"/>
+<path d="M110 150 v 14 M103 157 h 14 M400 120 v 12 M394 126 h 12"/>
 </svg>
