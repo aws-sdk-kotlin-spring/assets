@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 540">
+  <title>AWS SDK Kotlin for Spring</title>
+  <g transform="translate(256 240) scale(0.92) translate(-258 -263)">
+<title>AWS SDK Kotlin for Spring</title>
+  <defs>
+    <linearGradient id="gKotlin" x1="118" y1="90" x2="270" y2="228" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#7F52FF"/><stop offset=".55" stop-color="#C711E1"/><stop offset="1" stop-color="#E44857"/>
+    </linearGradient>
+    <linearGradient id="gLeaf" x1="300" y1="200" x2="403" y2="94" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5A9E2F"/><stop offset="1" stop-color="#8BD450"/>
+    </linearGradient>
+    <path id="spark" d="M0 -14 C2 -4 4 -2 14 0 C4 2 2 4 0 14 C-2 4 -4 2 -14 0 C-4 -2 -2 -4 0 -14 Z"/>
+  </defs>
+
+  <!-- Products flying out -->
+  <g id="kotlin" transform="rotate(-4 194 150)">
+    <polygon fill="url(#gKotlin)" points="118,108 241,71 204,143 269,195 155,228"/>
+  </g>
+  <g id="spring-leaf">
+    <path fill="url(#gLeaf)" d="M300 198 C268 152 298 106 350 102 C376 100 394 98 404 92 C407 140 396 192 342 206 C326 210 311 206 300 198 Z"/>
+    <path fill="none" stroke="#FFFFFF" stroke-width="9" stroke-linecap="round" d="M306 192 C334 160 362 136 392 112"/>
+  </g>
+
+  <!-- Motion lines -->
+  <g id="motion" fill="none" stroke="#232F3E" stroke-width="7" stroke-linecap="round">
+    <path d="M94 218 C108 226 120 236 130 246"/>
+    <path d="M110 194 C122 203 132 214 140 226"/>
+    <path d="M241 224 C250 236 255 248 256 260"/>
+    <path d="M290 220 C280 232 274 246 272 260"/>
+    <path d="M262 116 C256 130 254 142 254 154"/>
+    <path d="M394 207 C382 214 372 222 364 232"/>
+  </g>
+
+  <!-- Sparkles -->
+  <g id="sparkles" fill="#FF9900">
+    <use href="#spark" transform="translate(94 158)"/>
+    <use href="#spark" transform="translate(278 70)"/>
+    <use href="#spark" transform="translate(422 192) scale(.8)"/>
+  </g>
+
+  <!-- Delivery box -->
+  <g id="box" stroke="#232F3E" stroke-width="7" stroke-linejoin="round">
+    <polygon fill="#E2B57C" points="146,318 258,290 204,240 108,270"/>
+    <polygon fill="#E2B57C" points="258,290 366,316 408,267 318,238"/>
+    <polygon fill="#6E4A2F" points="146,318 258,290 366,316 272,346"/>
+    <polygon fill="#E6B97E" points="146,318 272,346 276,466 146,425"/>
+    <polygon fill="#C49360" points="272,346 366,316 366,425 276,466"/>
+    <polygon fill="#EBC593" points="146,318 272,346 246,374 120,340"/>
+    <polygon fill="#E2B57C" points="272,346 366,316 396,343 298,374"/>
+  </g>
+  <!-- AWS-style smile on the box -->
+  <g id="smile" fill="none" stroke="#FF9900" stroke-width="9" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M162 374 C184 408 222 424 258 410"/>
+    <path d="M244 395 C254 393 263 395 268 400 C267 409 264 416 258 422"/>
+  </g>
+  </g>
+  <text x="256" y="505" text-anchor="middle" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="30" font-weight="600" fill="#f07818">AWS SDK Kotlin for Spring</text>
+</svg>
